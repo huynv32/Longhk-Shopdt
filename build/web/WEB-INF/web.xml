@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>NewServlet</servlet-name>
+        <servlet-class>controller.NewServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NewServlet</servlet-name>
+        <url-pattern>/NewServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LoginSVL</servlet-name>
+        <servlet-class>controller.LoginSVL</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>LoginSVL</servlet-name>
+        <url-pattern>/LoginSVL</url-pattern>
+    </servlet-mapping>
+    
+    
+   
+    <servlet>
+        <servlet-name>PageAdminSVL</servlet-name>
+        <servlet-class>controller.PageAdminSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PageAdminSVL</servlet-name>
+        <url-pattern>/PageAdminSVL</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LogOutSVL</servlet-name>
+        <servlet-class>controller.LogOutSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogOutSVL</servlet-name>
+        <url-pattern>/LogOutSVL</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RegisterSVL</servlet-name>
+        <servlet-class>controller.RegisterSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterSVL</servlet-name>
+        <url-pattern>/RegisterSVL</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DisplayeachtypeSVL</servlet-name>
+        <servlet-class>controller.DisplayeachtypeSVL</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SearchSVL</servlet-name>
+        <servlet-class>controller.SearchSVL</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>DisplayeachtypeSVL</servlet-name>
+        <url-pattern>/DisplayeachtypeSVL</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchSVL</servlet-name>
+        <url-pattern>/SearchSVL</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>InforproductSVL</servlet-name>
+        <servlet-class>controller.InforproductSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InforproductSVL</servlet-name>
+        <url-pattern>/InforproductSVL</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddsessionCard</servlet-name>
+        <servlet-class>controller.AddsessionCard</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddsessionCard</servlet-name>
+        <url-pattern>/AddsessionCard</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BuyProductSVL</servlet-name>
+        <servlet-class>controller.BuyProductSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BuyProductSVL</servlet-name>
+        <url-pattern>/BuyProductSVL</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>EditInformationUser</servlet-name>
+        <servlet-class>controller.EditInformationUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditInformationUser</servlet-name>
+        <url-pattern>/EditInformationUser</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeleteSessionPrdSVL</servlet-name>
+        <servlet-class>controller.DeleteSessionPrdSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteSessionPrdSVL</servlet-name>
+        <url-pattern>/DeleteSessionPrdSVL</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UsercheckOrder</servlet-name>
+        <servlet-class>controller.UsercheckOrder</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UsercheckOrder</servlet-name>
+        <url-pattern>/UsercheckOrder</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UserDeleteOrder</servlet-name>
+        <servlet-class>controller.UserDeleteOrder</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserDeleteOrder</servlet-name>
+        <url-pattern>/UserDeleteOrder</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>InsertFeedbackSVL</servlet-name>
+        <servlet-class>controller.InsertFeedbackSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertFeedbackSVL</servlet-name>
+        <url-pattern>/InsertFeedbackSVL</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SortProduct</servlet-name>
+        <servlet-class>controller.SortProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SortProduct</servlet-name>
+        <url-pattern>/SortProduct</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeleteandUpdateUserSVL</servlet-name>
+        <servlet-class>controller.DeleteandUpdateUserSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteandUpdateUserSVL</servlet-name>
+        <url-pattern>/DeleteandUpdateUserSVL</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>OrderConfirmSVL</servlet-name>
+        <servlet-class>controller.OrderConfirmSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OrderConfirmSVL</servlet-name>
+        <url-pattern>/OrderConfirmSVL</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UpdateProductSVL</servlet-name>
+        <servlet-class>controller.UpdateProductSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateProductSVL</servlet-name>
+        <url-pattern>/UpdateProductSVL</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeleteProductSVL</servlet-name>
+        <servlet-class>controller.DeleteProductSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteProductSVL</servlet-name>
+        <url-pattern>/DeleteProductSVL</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>InsertProductSVL</servlet-name>
+        <servlet-class>controller.InsertProductSVL</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertProductSVL</servlet-name>
+        <url-pattern>/InsertProductSVL</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
